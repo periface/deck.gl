@@ -20,12 +20,19 @@ const App = ({data, viewport}) => {
    *   {
    *     // S2 Cell in SF Bay Area
    *     token: "80858004",
+   *     // Simple polygon (array of coords)
+   *     token: [[-122.4, 37.7], [-122.4, 37.8], [-122.5, 37.8], [-122.5, 37.7], [-122.4, 37.7]],
    *     zipcode: 94107,
    *     population: 26599,
    *     area: 6.11
    *   },
    *   {
    *     token: "8085800c",
+   *     // Complex polygon with holes (array of rings)
+   *     token: [
+   *       [[-122.4, 37.7], [-122.4, 37.8], [-122.5, 37.8], [-122.5, 37.7], [-122.4, 37.7]],
+   *       [[-122.45, 37.73], [-122.47, 37.76], [-122.47, 37.71], [-122.45, 37.73]]
+   *     ],
    *     zipcode: 94107,
    *     population: 26599,
    *     area: 6.11
