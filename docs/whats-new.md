@@ -2,9 +2,9 @@
 
 This page contains highlights of each deck.gl release. Also check our [vis.gl blog](https://medium.com/vis-gl) for news about new releases and features in deck.gl.
 
-## deck.gl v6.4
+## deck.gl v7.0
 
-Target Release Date: Jan, 2019
+Target Release Date: Mar, 2019
 
 <table style="border: 0;" align="center">
   <tbody>
@@ -21,6 +21,11 @@ Target Release Date: Jan, 2019
 ### New Layer Catalog: S2 Layers (Experimental)
 
 The new `@deck.gl/s2-layers` module contains an `S2Layer` that understands geospatial indices from the [S2 Geometry Library](http://s2geometry.io/).
+
+
+## deck.gl v6.4
+
+Release Date: Jan 29, 2019
 
 
 ## deck.gl v6.3
